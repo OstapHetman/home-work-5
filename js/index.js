@@ -1,4 +1,4 @@
- function myFunction(a, b, c, x1, x2) {
+ function squareEquation(a, b, c, x1, x2) {
      var x1;
      var x2;
      var a = Number(prompt('Enter a:'));
@@ -17,5 +17,5 @@
      document.write('<br />');
      document.write('Quadratic equation will look like: ' + a + 'x<sup>2</sup>+' + b + 'x+' + c + '=0' + '.');
  }
- myFunction();
+ squareEquation();
  
