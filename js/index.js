@@ -8,8 +8,8 @@
         var sq = Math.sqrt(d);
         if (d>0)
         {
-            x1=-b-sq/2;
-            x2=-b+sq/2;
+            x1=-b-sq/(2*a);
+            x2=-b+sq/(2*a);
             document.write('Result x1 = ' + x1+ ';', ' Result x2 = ' +x2 + ';');
         }
         else
