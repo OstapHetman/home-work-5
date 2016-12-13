@@ -4,9 +4,9 @@
     	var a = Number(prompt('Enter a:'));
 		var b = Number(prompt('Enter b:'));
 		var c = Number(prompt('Enter c:'));
-        var d = b * b - 4 * a * c;
-        var sq = Math.sqrt(d);
-        if (d>0)
+        var discriminant = b * b - 4 * a * c;
+        var sq = Math.sqrt(discriminant);
+        if (discriminant > 0)
         {
             x1=-b-sq/(2*a);
             x2=-b+sq/(2*a);
